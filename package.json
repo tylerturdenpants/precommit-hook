@@ -1,16 +1,15 @@
 {
-  "author": "Nathan LaFreniere <quitlahok@gmail.com> (https://github.com/nlf)",
-  "name": "precommit-hook",
+  "author": "John Hurliman <jhurliman@jhurliman.org> (http://jhurliman.org/)",
+  "name": "precommit-hook-eslint",
   "description": "A useful pre-commit hook for git based projects that lints and runs npm test",
   "version": "3.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/nlf/precommit-hook",
+  "homepage": "https://github.com/jhurliman/precommit-hook",
   "repository": {
-    "url": "https://github.com/nlf/precommit-hook.git"
+    "url": "https://github.com/jhurliman/precommit-hook.git"
   },
   "dependencies": {
-    "git-validate": "^2.0.0",
-    "jshint": "*"
+    "git-validate": "^2.0.0"
   },
   "scripts": {
     "install": "node bin/install"
